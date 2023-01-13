@@ -482,7 +482,7 @@ WHERE instr(first_name, 'e') = 3;
      
      
 SELECT first_name
-FROM employees
+FROM employees 
 WHERE instr(first_name, 'e', 3,1) = 3;
 
 SELECT instr('korea', 'e', 2,2)
